@@ -1,0 +1,52 @@
+.invoice-list {
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.invoice-item {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  transition: all 0.3s;
+}
+
+.invoice-item.editing {
+  background-color: #ffea99; /* Highlight the editing item */
+}
+
+.item-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-name {
+  font-size: 18px;
+}
+
+.total {
+  font-size: 16px;
+  color: #007bff;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
